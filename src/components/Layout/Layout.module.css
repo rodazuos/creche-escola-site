@@ -1,0 +1,12 @@
+.Layout {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+@media only screen and (max-width: 768px) {
+    .Layout {
+        flex-direction: column;
+    }
+  }
